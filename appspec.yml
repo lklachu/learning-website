@@ -8,7 +8,7 @@ hooks:
     - location: scripts/httpd_install.sh
       timeout: 300
       runas: root
-    - location: scripts/httpd_start
+    - location: scripts/httpd_start.sh
       timeout: 300
       runas: root
   ApplicationStop:
