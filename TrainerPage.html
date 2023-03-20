@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js"></script>
+    <title>Welcome to EDUSPOT</title>
+    <style>
+        .select{
+            display: inline;
+        }
+        .option{
+            display: inline-block;
+        }
+        .java{
+            padding-left: 27px;
+        }
+    </style>
+</head>
+<body>
+    <div class="name spot"><span class="left"><a class="homepage" href="index.html">EDU SP<span class="logo">O</span>T</span></a>
+        <a class="right" href="#"><img class="profile" src="./Icons/user icon2.png" alt="Profile"></a>
+    </div><br>
+    <div class="form">
+        <div class="select">Select Subject: </div>
+        <div class="option java">
+            <select id="course">
+                <option value="java">Java</option>
+                <option value="webtech">Web Technology</option>
+                <option value="sql">SQL</option>
+                <option value="python">Python</option>
+                <option value="j2ee">J2EE</option>
+                <option value="testing">Manual Testing</option>
+            </select>
+        </div><br>
+        <div class="select">Select Batch Code:</div>
+        <div class="option">
+            <select id="batch">
+                <option value="3ccwa1">3CCWA1</option>
+                <option value="3ccwa2">3CCWA2</option>
+                <option value="3ccwa3">3CCWA3</option>
+                <option value="3ccwa4">3CCWA4</option>
+                <option value="3ccwa5">3CCWA5</option>
+                <option value="3ccwa6">3CCWA6</option>
+            </select>
+        </div>
+        <button onclick="trainerClass()" class="click" type="button">Go To Class</button>
+    </div>
+</body>
+</html>

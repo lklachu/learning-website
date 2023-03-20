@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js"></script>
+    <title>Trainer Singup</title>
+    <style>
+        body{
+            background-attachment: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"><div class="name"><a class="homepage" href="index.html">EDU SP<span class="logo">O</span>T</a></div></div>
+    <form class="form formmargin">
+        <h1>Trainer Sign Up</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <th scope="col"><label class="lab">First Name :</label></th>
+                    <td><input type="text" maxlength="15" placeholder="First Name" required autofocus></td>
+                </tr>
+                <tr>
+                    <th scope="col"><label>Last Name :</label></th>
+                    <td><input type="text" maxlength="15" placeholder="Last Name" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><label class="lab">Trainer ID :</label></th>
+                    <td><input type="text" maxlength="8" placeholder="ID" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><label>Phone Number :</th>
+                    <td><input type="number" placeholder="Ph-no" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><lable>Emaild ID :</lable></th>
+                    <td><input type="email" placeholder="Email-ID" required></td>
+                </tr>
+                <tr>
+                    <th scope="col">Qualification :</th>
+                    <td><input type="text" placeholder="Qualification" required></td>
+                </tr>
+                <tr>
+                    <th scope="col">Experience :</th>
+                    <td><select size="1">
+                             <option>1 Year</option>
+                             <option>2 Year</option>
+                             <option>3 Year</option>
+                             <option>4 Year</option>
+                             <option>More</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col">Domain :</th>
+                    <td><input type="url" placeholder="Domain" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><label>Password :</label></th>
+                    <td><input type="password" placeholder="Password" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><labe>Conform Password :</label></th>
+                    <td><input type="password" placeholder="Conform Password" required></td>
+                </tr>
+            </tbody>
+        </table>
+        <tr>
+            <div class="link">
+                <button class="button" type="reset">Cancel</button>
+                <button onclick="trainerlog()" class="button" type="button">Signup</button>
+            </div>
+</body>
+</html>

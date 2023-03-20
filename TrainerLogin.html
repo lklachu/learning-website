@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js"></script>
+    <title>Trainer Login</title>
+</head>
+<body>
+    <div id="header"><div class="name"><a class="homepage" href="index.html">EDU SP<span class="logo">O</span>T</a></div></div>
+    <form class="form">
+        <h1>Trainer Login</h1>
+        <label>Trainer ID :</label>
+        <input type="text" maxlength="15" placeholder="ID" required autofocus><br>
+        <label id="pwd">Password :</label>
+        <input type="password" placeholder="Passwrod" min="8" max="12" required><br>
+        <div class="link"><input class="otp" type="button" value="Send OTP"></div><br>
+        <label>Enter OTP :</label>
+        <input type="number" required>
+        <div class="link">
+            <button class="button" type="reset">Cancel</button>
+            <button onclick="trainpage()" class="button" type="button">Login</button>
+        </div>
+        <p class="selorsign">Are You New Trainer?</p>
+        <button onclick="trainersign()" class="click" type="button">Click Here</button>
+    </form>
+</body>
+</html>
