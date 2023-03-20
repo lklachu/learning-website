@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js"></script>
+    <title>Student Signup</title>
+    <style>
+        body{
+            background-attachment: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"><div class="name"><a class="homepage" href="index.html">EDU SP<span class="logo">O</span>T</a></div></div>
+    <form class="form formmargin">
+        <h1>Sign Up</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <th scope="col"><label class="lab">First Name :</label></th>
+                    <td><input type="text" maxlength="15" placeholder="First Name" required autofocus></td>
+                </tr>
+                <tr>
+                    <th scope="col"><label class="lab">Last Name :</label></th>
+                    <td><input type="text" maxlength="15" placeholder="Last Name" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><label class="lab">Phone Number :</label></th>
+                    <td><input type="number" placeholder="Ph-no" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><lable class="lab">Emaild ID :</lable></th>
+                    <td><input type="email" placeholder="Email-ID" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><label class="lab">Date Of Birth :</label></th>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><lable class="lab">Username :</lable></th>
+                    <td><input type="text" maxlength="15" placeholder="Username" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><label class="lab">Password :</label></th>
+                    <td><input type="password" placeholder="Password" required></td>
+                </tr>
+                <tr>
+                    <th scope="col"><labe class="lab">Conform Password :</label></th>
+                    <td><input type="password" placeholder="Password Conform" required></td>
+                </tr>
+            </tbody>
+        </table>
+        <tr>
+            <div class="link">
+                <button class="button" type="reset">Reset</button>
+                <button onclick="studentlog()" class="button" type="button">Sign Up</button>
+            </div>
+    </form>
+</body>
+</html>

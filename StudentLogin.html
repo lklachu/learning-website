@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js"></script>
+    <title>Student Login</title>
+</head>
+<body>
+    <div id="header"><div class="name"><a class="homepage" href="index.html">EDU SP<span class="logo">O</span>T</a></div></div>
+    <form class="form">
+        <h1>Student Login</h1>
+        <label>Username :</label>
+        <input type="text" placeholder="Username" maxlength="15" required autofocus><br>
+        <label id="pwd">Password :</label>
+        <input type="password" placeholder="Passwrod" min="8" max="12" required><br>
+        <div class="link">
+            <button class="button" type="reset">Cancel</button>
+            <button onclick="stupage()" class="button" type="button">Login</button>
+        </div>
+        <p class="selorsign">Are You New Student User?</p>
+        <button onclick="stusign()" class="click" type="button">Click Here</button>
+    </form>
+</body>
+</html>
